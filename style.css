@@ -1,0 +1,517 @@
+# Hogwart-s-Sorting-House-
+Attend the Sorting Hat House to get sorted into a house!
+body {
+  background-color: rgb(41, 20, 88);
+}
+
+
+.sorthat {
+  margin-left: 420px;
+  
+}
+
+.houses {
+  font-size: 70px;
+}
+
+.g {
+  font-size: 40px;
+  background-color: rgb(255, 208, 108);
+  color: rgb(189, 41, 41);
+  font-family: 'Julius Sans One', sans-serif;
+  border-color:rgb(253, 210, 130);
+  border-width: 7px;
+  margin-left: 130px;
+  margin-bottom:30px;
+  
+}
+
+.g:hover {
+background-color:  rgb(189, 41, 41);
+color: rgb(255, 208, 108);
+ border-color:rgb(189, 41, 41);
+}
+
+.s{
+  font-size: 40px;
+  background-color: rgb(196, 196, 196);
+  color: rgb(24, 114, 29);
+  font-family: 'Julius Sans One', sans-serif;
+  border-color:rgb(196, 196, 196);
+  border-width: 7px;
+    margin-bottom:30px;
+}
+
+.s:hover {
+  background-color:  rgb(24, 114, 29);
+color: rgb(196, 196, 196);
+ border-color:rgb(24, 114, 29);
+}
+.h {
+  font-size: 40px;
+  background-color: rgb(236, 227, 98);
+  color: rgb(0, 0, 0);
+  font-family: 'Julius Sans One', sans-serif;
+  border-color:rgb(236, 227, 98);
+  border-width: 7px;
+    margin-bottom:30px;
+
+}
+.h:hover {
+  background-color:  rgb(0, 0, 0);
+color: rgb(236, 227, 98);
+ border-color:rgb(0, 0, 0);
+}
+
+.r {
+  font-size: 40px;
+  background-color: rgb(155, 142, 117);
+  color: rgb(34, 35, 138);
+  font-family: 'Julius Sans One', sans-serif;
+  border-color:rgb(156, 142, 114);
+  border-width: 7px;
+    margin-bottom:30px;
+}
+
+.r:hover {
+  background-color:  rgb(34, 35, 138);
+color: rgb(155, 134, 94);
+ border-color:rgb(34, 35, 138);}
+a  {
+  font-size: 150px;
+}
+
+.start {
+ color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+font-family: 'Julius Sans One', sans-serif;
+background-color:darkslateblue;
+border-style:outset;
+padding-left: 100px;
+border-color: yellow;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fbff00,#fbff00,#fbff00,#fbff00,#fbff00,#fbff00,;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fbff00, 0 0 40px #fbff00, 0 0 50px #fbff00, 0 0 60px #fbff00, 0 0 70px #fbff00, 0 0 80px #fbff00;
+  }
+}
+
+
+.starts {
+  font-size: 40px;
+ color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+font-family: 'Julius Sans One', sans-serif;
+background-color:darkslateblue;
+border-style:outset;
+padding-left: 100px;
+border-color: yellow;
+
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fbff00,#fbff00,#fbff00,#fbff00,#fbff00,#fbff00,;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fbff00, 0 0 40px #fbff00, 0 0 50px #fbff00, 0 0 60px #fbff00, 0 0 70px #fbff00, 0 0 80px #fbff00;
+  }
+}
+
+.bpp {
+  font-style: bold;
+
+  font-family:'Julius Sans One', sans-serif;
+  text-align: center;
+  font-size: 60px;
+ color:black;
+  text-shadow: 4px 4px rgb(248, 240, 191);
+text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+font-family: 'Julius Sans One', sans-serif;
+background-color:darkslateblue;
+border-style:outset;
+padding-left: 100px;
+border-color: yellow;
+
+}
+
+.bpp {
+  font-family:'Julius Sans One', sans-serif;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fbff00,#fbff00,#fbff00,#fbff00,#fbff00,#fbff00,;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fbff00, 0 0 40px #fbff00, 0 0 50px #fbff00, 0 0 60px #fbff00, 0 0 70px #fbff00, 0 0 80px #fbff00;
+  }
+}
+
+h2 {
+  margin-top: 1em; 
+  font-size: 40px;
+}
+
+.question {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 2em;
+}
+  
+.answer-choice img {
+  height: 25em;
+}
+
+#q1a1 {
+ background: linear-gradient(to bottom, black, gray);
+  color: white;
+  border-color: rgb(203, 203, 204);
+  font-size: 25px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#q1a1:hover {
+ background: linear-gradient(to bottom, #7a7a7a 0%, #ffffff 100%);
+  color: black;
+  border-color: #c9c9c9;
+  font-size: 22px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+} 
+
+#q1a2 {
+  background: linear-gradient(to bottom, black, gray);
+  color: white;
+  border-color: rgb(203, 203, 204);
+  font-size: 25px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#q1a2:hover {
+  background: linear-gradient(to bottom, #7a7a7a 0%, #ffffff 100%);
+  color: black;
+  border-color: #c9c9c9;
+  font-size: 22px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;}
+
+#q1a3 {
+  background: linear-gradient(to bottom, black, gray);
+  color: white;
+  border-color: rgb(203, 203, 204);
+  font-size: 25px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#q1a3:hover {
+  background: linear-gradient(to bottom, #7a7a7a 0%, #ffffff 100%);
+  color: black;
+  border-color: #c9c9c9;
+  font-size: 22px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+}
+
+#q1a4 {
+  background: linear-gradient(to bottom, black, gray);
+  color: white;
+  border-color: rgb(203, 203, 204);
+  font-size: 25px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#q1a4:hover {
+  background: linear-gradient(to bottom, #7a7a7a 0%, #ffffff 100%);
+  color: black;
+  border-color: #c9c9c9;
+  font-size: 22px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+}
+
+#q2a1 {
+ background: linear-gradient(to bottom, black, gray);
+  color: white;
+  border-color: rgb(203, 203, 204);
+  font-size: 25px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#q2a1:hover {
+  background: linear-gradient(to bottom, #7a7a7a 0%, #ffffff 100%);
+  color: black;
+  border-color: #c9c9c9;
+  font-size: 22px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+}
+
+#q2a2 {
+ background: linear-gradient(to bottom, black, gray);
+  color: white;
+  border-color: rgb(203, 203, 204);
+  font-size: 25px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#q2a2:hover {
+  background: linear-gradient(to bottom, #7a7a7a 0%, #ffffff 100%);
+  color: black;
+  border-color: #c9c9c9;
+  font-size: 22px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+}
+
+#q2a3 {
+  background: linear-gradient(to bottom, black, gray);
+  color: white;
+  border-color: rgb(203, 203, 204);
+  font-size: 25px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#q2a3:hover {
+  background: linear-gradient(to bottom, #7a7a7a 0%, #ffffff 100%);
+  color: black;
+  border-color: #c9c9c9;
+  font-size: 22px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+}
+
+#q2a4 {
+  background: linear-gradient(to bottom, black, gray);
+  color: white;
+  border-color: rgb(203, 203, 204);
+  font-size: 25px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#q2a4:hover {
+ background: linear-gradient(to bottom, #7a7a7a 0%, #ffffff 100%);
+  color: black;
+  border-color: #c9c9c9;
+  font-size: 22px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+}
+
+#q3a1 {
+  background: linear-gradient(to bottom, black, gray);
+  color: white;
+  border-color: rgb(203, 203, 204);
+  font-size: 25px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#q3a1:hover {
+  background: linear-gradient(to bottom, #7a7a7a 0%, #ffffff 100%);
+  color: black;
+  border-color: #c9c9c9;
+  font-size: 22px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+}
+
+#q3a2 {
+  background: linear-gradient(to bottom, black, gray);
+  color: white;
+  border-color: rgb(203, 203, 204);
+  font-size: 25px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#q3a2:hover {
+  background: linear-gradient(to bottom, #7a7a7a 0%, #ffffff 100%);
+  color: black;
+  border-color: #c9c9c9;
+  font-size: 22px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+}
+
+#q3a3 {
+ background: linear-gradient(to bottom, black, gray);
+  color: white;
+  border-color: rgb(203, 203, 204);
+  font-size: 25px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#q3a3:hover {
+  background: linear-gradient(to bottom, #7a7a7a 0%, #ffffff 100%);
+  color: black;
+  border-color: #c9c9c9;
+  font-size: 22px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+}
+
+#q3a4 {
+  background: linear-gradient(to bottom, black, gray);
+  color: white;
+  border-color: rgb(203, 203, 204);
+  font-size: 25px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#q3a4:hover {
+  background: linear-gradient(to bottom, #7a7a7a 0%, #ffffff 100%);
+  color: black;
+  border-color: #c9c9c9;
+  font-size: 22px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;}
+
+#q4a1 {
+  background: linear-gradient(to bottom, black, gray);
+  color: white;
+  border-color: rgb(203, 203, 204);
+  font-size: 25px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#q4a1:hover {
+  background: linear-gradient(to bottom, #7a7a7a 0%, #ffffff 100%);
+  color: black;
+  border-color: #c9c9c9;
+  font-size: 22px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+}
+
+#q4a2 {
+ background: linear-gradient(to bottom, black, gray);
+  color: white;
+  border-color: rgb(203, 203, 204);
+  font-size: 25px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#q4a2:hover {
+  background: linear-gradient(to bottom, #7a7a7a 0%, #ffffff 100%);
+  color: black;
+  border-color: #c9c9c9;
+  font-size: 22px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+}
+
+#q4a3 {
+  background: linear-gradient(to bottom, black, gray);
+  color: white;
+  border-color: rgb(203, 203, 204);
+  font-size: 25px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#q4a3:hover {
+  background: linear-gradient(to bottom, #7a7a7a 0%, #ffffff 100%);
+  color: black;
+  border-color: #c9c9c9;
+  font-size: 22px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+}
+
+#q4a4 {
+  background: linear-gradient(to bottom, black, gray);
+  color: white;
+  border-color: rgb(203, 203, 204);
+  font-size: 25px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#q4a4:hover {
+  background: linear-gradient(to bottom, #7a7a7a 0%, #ffffff 100%);
+  color: black;
+  border-color: #c9c9c9;
+  font-size: 22px;
+    border-width: 15px;
+  border-radius: 20px;
+  width: 55%;
+}
+
+h2 {
+  color: white;
+}
+ 
